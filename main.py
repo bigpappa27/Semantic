@@ -29,7 +29,7 @@ def firma_existiert(Firmenname):
     headers = {
         "accept": "application/json",
         "content-type": "application/json",
-        "authorization": "Bearer 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"
+        "authorization": ""     #Hier muss ein API Key hin
     }
 
     response = requests.post(url, json=payload, headers=headers)
